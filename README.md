@@ -40,13 +40,13 @@ Creating a branch with your username is more beneficial for boosting your collab
 1. **Fork the Repository (Optional)**: If you prefer working independently at first, fork the repository to your GitHub account.
 2. **Create a Branch**: **(recommended)**
    - Clone the repository: <code>https://github.com/NOVA-RYZEX/Collaborative-Project-Personal-Portfolio-Website.git</code>
-   - Create a branch with your username: `git checkout -b your-username-portfolio`
+   - Create a branch with your username: `git checkout -b your-username`
    - Create Your Folder: `your-username`
    - Work on your portfolio in your branch.
    - Develop your portfolio: Use frameworks and tools you prefer (React, Vue, etc..)
    - Make sure your portfolio is a **static site** (only push the build files)
 3. **Push Your Branch**:
-   - Push your changes to your branch: `git push origin your-username-portfolio`
+   - Push your changes to your branch: `git push -u origin your-username`
 4. **Collaborate**:
    - Share your branch and collaborate with others. Review and discuss changes before merging.
 5. **Pull Requests**:
