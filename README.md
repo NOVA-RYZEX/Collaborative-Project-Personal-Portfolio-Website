@@ -64,6 +64,7 @@ Creating a branch with your username is more beneficial for boosting your collab
 
 <h2 align="center">Next Steps</h2>
 
+- [Discussions here](https://github.com/NOVA-RYZEX/Collaborative-Project-Personal-Portfolio-Website/discussions)
 - Feel free to share your ideas and suggestions for the project.
 - Excited to see what you come up with! **Let’s make our mark with these awesome portfolio websites.**
 
