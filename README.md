@@ -45,8 +45,22 @@ Creating a branch with your username is more beneficial for boosting your collab
    - Work on your portfolio in your branch.
       - Develop your portfolio: Use frameworks and tools you prefer (React, Vue, etc..)
          - _**If you use a framework and Bundlers for building (eg Vue,React,Webpack)**_
-            1.  
-      - Make sure your portfolio is a **static site** (only push the build files)
+            - **_Example using vue_**
+              1. `git checkout -b your-username`
+              2. `npm create vite@latest`
+              3. `name your project` **(This is what you will add to .gitignore)**__
+              4. **complete your portfolio project**
+              5. **Now build:** `npm run build` => `dist` dir **(specific to frameworks)**
+              6. **Copy the generated static files one level-up and rename:**
+                 - `cp -r dist ../your-username` **or**
+                 - `mv dist ../your-username`
+              7. **Create a .gitignore** and add the **_name-of-your-project/_**
+              8. `git add .`, `git commit -m "your message"`, `git push -u your-username`
+      - **__Already have a portfolio?__**
+          - JUST create your branch: `git checkout -b your-username`
+          - Copy your portfolio and rename to your username: `cp -r path/to/folder your-username`
+          - `git add .`, `git commit -m "your message"`, `git push -u your-username`
+      - **Make sure your portfolio is a **static site** (only push the build files)**
 3. **Push Your Branch**:
    - Push your changes to your branch: `git push -u origin your-username`
 4. **Collaborate**:
