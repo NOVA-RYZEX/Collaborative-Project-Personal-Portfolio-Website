@@ -1,0 +1,32 @@
+[
+  // Add your information below in the following format:
+  // {
+  //   "name": "Your Name",
+  //   "avatar": "URL to your GitHub avatar image",
+  //   "role": "Your Role",
+  //   "portfolio": "Link to your portfolio '/username'",
+  //   "location": "Your Location",
+  //   "bio": "A brief bio about yourself",
+  //   "skills": ["Your", "Skills", "Separated", "By", "Commas"],
+  //   "social_links": {
+  //     "linkedin": "https://linkedin.com/in/your-profile",
+  //     "github": "https://github.com/your-username",
+  //     "twitter": "https://twitter.com/your-username"
+  //   }
+  // },
+	{
+		"name": "Zenith-Nova",
+		"avatar": "https://avatars.githubusercontent.com/u/138288667?v=4",
+		"role": "Software Engineer",
+		"portfolio": "/zenith-nova",
+		"email": "zenith.nova@example.com",
+		"location": "Nairobi, KE",
+    "bio": "I’m a computer science student and a software engineer with a keen interest in artificial intelligence, cybersecurity, blockchain.",
+		"skills": ["JavaScript", "Python", "React", "Node.js", "Machine Learning"],
+		"social_links": {
+			"linkedin": "https://linkedin.com/in/zenith-nova",
+			"github": "https://github.com/Zenith-Nova",
+			"twitter": "https://twitter.com/ZenithNova"
+		}
+	}
+]
