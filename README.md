@@ -86,5 +86,34 @@ Creating a branch with your username is more beneficial for boosting your collab
 
 ---
 
+<details>
+  <summary>members.json</summary>
+
+  ```json
+
+[
+  // Add your information below in the following format:
+  {
+     "name": "Your Name",
+     "avatar": "URL to your avatar image",
+     "role": "Your Role",
+     "portfolio": "Link to your portfolio",
+     "location": "Your Location",
+     "bio": "A brief bio about yourself",
+     "skills": ["Your", "Skills", "Separated", "By", "Commas"],
+     "social_links": {
+       "linkedin": "https://linkedin.com/in/your-profile",
+       "github": "https://github.com/your-username",
+       "twitter": "https://twitter.com/your-username"
+     }
+  },
+]
+
+```
+
+</details>
+
+---
+
 **Cheers,**  
 **Gideon-Yebei**
