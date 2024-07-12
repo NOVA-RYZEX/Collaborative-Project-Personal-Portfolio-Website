@@ -6,10 +6,12 @@
 	--font-stack: Roboto, Helvetica, Arial, sans-serif;
 }
 
+
 /* Remove the margin in all browsers. */
 *,
 *::before,
 *::after {
+	font-size: 100%;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -89,14 +91,20 @@ samp {
 }
 
 body {
+	transform: scale(1);
+	transform-origin: 0 0;
 	color-scheme: light dark;
-	font-synthesis: none;
-	text-rendering: optimizeSpeed;
-	line-height: 1.5;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-family: var(--font-stack);
-	background: var(--img-bg-8) var(--bg-img-8);
+	font-synthesis: none !important;
+	text-rendering: optimizeSpeed !important;
+	line-height: 1.5 !important;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	font-size: 100% !important;
+	font-size-adjust: 100% !important;
+	text-size-adjust: 100% !important;
+	font-family: var(--font-stack) !important;
+	background: var(--img-bg-8) var(--bg-img-8) !important;
+	overflow: auto;
 	transition:
 		color 0.5s,
 		background-color 0.5s;
@@ -115,7 +123,7 @@ body {
 }
 
 .gradient-text {
-	background: linear-gradient(45deg, #ff6e7f, #bfe9ff);
+	background: linear-gradient(45deg, #b3d4fc, #f4adb6, #16445c);
 	/* Define your gradient colors */
 	-webkit-background-clip: text;
 	background-clip: text;
